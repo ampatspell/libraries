@@ -79,8 +79,8 @@
       "svelte": "./dist/utils/images.svelte.js"
     },
     "./utils/string": {
-      "types": "./dist/utils/string.svelte.d.ts",
-      "svelte": "./dist/utils/string.svelte.js"
+      "types": "./dist/utils/string.d.ts",
+      "svelte": "./dist/utils/string.js"
     },
     "./components/json": {
       "types": "./dist/components/json.svelte.d.ts",
@@ -122,5 +122,6 @@
   ],
   "engines": {
     "node": "24"
-  }
+  },
+  "gitHead": "552cf42c3bfa31176007291b448ac5c68fa42847"
 }
