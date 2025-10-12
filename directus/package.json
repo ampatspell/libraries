@@ -92,5 +92,9 @@
     "directus-sdk-typegen": "^0.2.1",
     "dotenv": "^17.2.3",
     "p-queue": "^9.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
   }
 }

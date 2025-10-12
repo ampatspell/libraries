@@ -71,5 +71,8 @@
   "engines": {
     "node": "24"
   },
-  "gitHead": "552cf42c3bfa31176007291b448ac5c68fa42847"
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  }
 }
