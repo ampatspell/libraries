@@ -1,6 +1,9 @@
 {
   "name": "@ampatspell/libraries",
   "private": true,
+  "scripts": {
+    "publish": "npx lerna publish"
+  },
   "workspaces": [
     "base",
     "carousel",
