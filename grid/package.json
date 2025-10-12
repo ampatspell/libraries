@@ -1,6 +1,6 @@
 {
   "name": "@ampatspell/grid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run prepack",
@@ -12,9 +12,7 @@
     "format": "prettier --write .",
     "lint": "prettier --check . && eslint .",
     "flc": "npm run check && npm run format && npm run lint",
-    "tags": "git push --follow-tags",
-    "minor": "npm version minor; npm run tags",
-    "patch": "npm version patch; npm run tags"
+    "patch": "npm version patch --no-git-tag-version"
   },
   "files": [
     "dist",
