@@ -1,0 +1,8 @@
+{
+  "version": "independent",
+  "command": {
+    "init": {
+      "exact": true
+    }
+  }
+}

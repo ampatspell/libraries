@@ -1,0 +1,10 @@
+{
+  "name": "@ampatspell/libraries",
+  "private": true,
+  "workspaces": [
+    "base",
+    "carousel",
+    "directus",
+    "grid"
+  ]
+}
