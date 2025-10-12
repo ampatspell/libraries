@@ -1,6 +1,6 @@
 {
   "name": "@ampatspell/directus",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run prepack",
@@ -34,18 +34,22 @@
       "types": "./dist/index.d.ts",
       "svelte": "./dist/index.js"
     },
-    "./directus/utils": {
+    "./utils": {
       "types": "./dist/utils.d.ts",
       "svelte": "./dist/utils.js"
     },
-    "./directus/base": {
+    "./base": {
       "types": "./dist/base.d.ts",
       "svelte": "./dist/base.js",
       "import": "./dist/base.js"
     },
-    "./directus/directus": {
+    "./directus": {
       "types": "./dist/directus.d.ts",
       "svelte": "./dist/directus.js"
+    },
+    "./validate": {
+      "types": "./dist/validate.d.ts",
+      "svelte": "./dist/validate.js"
     }
   },
   "peerDependencies": {

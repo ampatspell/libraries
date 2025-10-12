@@ -1,6 +1,6 @@
 {
   "name": "@ampatspell/base",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run prepack",
@@ -65,10 +65,6 @@
     "./utils/types": {
       "types": "./dist/utils/types.d.ts",
       "svelte": "./dist/utils/types.js"
-    },
-    "./utils/validate": {
-      "types": "./dist/utils/validate.d.ts",
-      "svelte": "./dist/utils/validate.js"
     },
     "./utils/promise": {
       "types": "./dist/utils/promise.d.ts",
