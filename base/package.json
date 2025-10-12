@@ -78,6 +78,10 @@
       "types": "./dist/utils/images.svelte.d.ts",
       "svelte": "./dist/utils/images.svelte.js"
     },
+    "./utils/string": {
+      "types": "./dist/utils/string.svelte.d.ts",
+      "svelte": "./dist/utils/string.svelte.js"
+    },
     "./components/json": {
       "types": "./dist/components/json.svelte.d.ts",
       "svelte": "./dist/components/json.svelte"
