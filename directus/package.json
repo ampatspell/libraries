@@ -93,6 +93,10 @@
     "dotenv": "^17.2.3",
     "p-queue": "^9.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ampatspell/libraries.git"
+  },
   "publishConfig": {
     "access": "public",
     "tag": "latest",
