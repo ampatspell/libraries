@@ -125,6 +125,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "tag": "latest"
+    "tag": "latest",
+    "registry": "https://npm.pkg.github.com"
   }
 }
