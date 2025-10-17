@@ -16,7 +16,7 @@ const args = process.argv.slice(2);
 
 config({ quiet: true });
 
-const url = process.env.PUBLIC_DIRECTUS_URL as string;
+const url = process.env.PRIVATE_DIRECTUS_URL as string;
 const token = process.env.PRIVATE_DIRECTUS_ADMIN_TOKEN as string;
 
 if (!url || !token) {

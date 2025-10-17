@@ -1,9 +1,8 @@
-import '@directus/sdk';
-import { PUBLIC_DIRECTUS_TOKEN, PUBLIC_DIRECTUS_URL } from '$env/static/public';
 import { getDirectusInternal, type Fetch } from './base.js';
+import { PRIVATE_DIRECTUS_TOKEN, PRIVATE_DIRECTUS_URL } from '$env/static/private';
 
 export { type Fetch };
 
 export const getBaseDirectus = <S>(fetch: Fetch) => {
-  return getDirectusInternal<S>(fetch, PUBLIC_DIRECTUS_URL, PUBLIC_DIRECTUS_TOKEN);
+  return getDirectusInternal<S>(fetch, PRIVATE_DIRECTUS_URL, PRIVATE_DIRECTUS_TOKEN);
 };
