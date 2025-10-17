@@ -1,3 +1,5 @@
+// No clue why but w/o this import schema generic breaks
+import '@directus/sdk';
 import { getDirectusInternal, type Fetch } from './base.js';
 import { PRIVATE_DIRECTUS_TOKEN, PRIVATE_DIRECTUS_URL } from '$env/static/private';
 
