@@ -1,4 +1,4 @@
-import { PRIVATE_DIRECTUS_TOKEN, PRIVATE_DIRECTUS_URL } from '$env/static/private';
+import { PUBLIC_DIRECTUS_TOKEN, PUBLIC_DIRECTUS_URL } from '$env/static/public';
 import { isTruthy } from '@ampatspell/base/utils/array';
 import type { Fetch } from '@ampatspell/directus/base';
 import { error } from '@sveltejs/kit';
@@ -33,8 +33,8 @@ export const baseProxy = async (fetch: Fetch, req: Request, url: string) => {
   });
 };
 
-const href = PRIVATE_DIRECTUS_URL;
-const token = PRIVATE_DIRECTUS_TOKEN;
+const href = PUBLIC_DIRECTUS_URL;
+const token = PUBLIC_DIRECTUS_TOKEN;
 
 const toQuery = (params: Record<string, string>) => {
   return Object.keys(params)
